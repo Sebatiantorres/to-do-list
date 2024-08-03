@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+:root {
+  background-color: #758694;
+  color: #F7E7DC;
+  font-family: "Roboto", sans-serif;
+}
+
+.success {
+  background-color: #0ca678;
+}
+
+.error { 
+  background-color: #e03131;
+}

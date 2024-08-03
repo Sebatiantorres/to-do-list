@@ -1,0 +1,24 @@
+.navbar {
+  height: 4.5rem;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 1rem;
+  align-items: center;
+  background-color: #405D72;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: italic;
+  margin: 0;
+}
+
+.logoAuthors {
+  font-size: 0.7rem;
+  font-weight: 300;
+  margin: 0 3px;
+  color: #ccc;
+}
