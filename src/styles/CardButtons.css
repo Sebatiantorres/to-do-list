@@ -1,0 +1,19 @@
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    
+
+    width: 70%;
+}
+
+
+.card-button {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    align-items: right;
+    background-color: #F7E7DC opacity(0.5);
+    font-size: 1.5rem;
+    
+    
+}
