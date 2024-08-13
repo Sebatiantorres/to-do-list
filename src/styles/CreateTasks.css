@@ -1,29 +1,52 @@
-input[type="checkbox"] {
-    display: none;
-    
-  }
-  input[type="checkbox"] + label {
-    position: relative;
-    cursor: pointer;
-    padding-left: 30px; /* Espacio para el checkbox */
-    display: inline-block;
-    vertical-align: middle;
-    width: 2rem; /* Alinea el label verticalmente */
-  }
-  input[type="checkbox"] + label:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 20px;
-    height: 20px;
-    border: 2px solid #405D72;
-    border-radius: 50%;
-    background-color: white;
-  }
-  input[type="checkbox"]:checked + label:before {
-    background-color: #0ddd9f;
-    border-color: #405D72;
-  }
-  
+.create-task-component {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+.label-task-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.input-task-wrapper {
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+#todo-check {
+  max-width: 600px;
+  width: calc(100% - 50px);
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+#todo-check:focus {
+  outline: none;
+}
+
+#todo-check::placeholder {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+#add-task {
+  width: 50px;
+  padding: 3px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #fff;
+  background-color: #0ca678;
+}
+
+#add-task:hover {
+  cursor: pointer;
+}
